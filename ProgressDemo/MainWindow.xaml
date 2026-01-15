@@ -40,6 +40,13 @@
             <Button Content="Start"
                     Command="{Binding Path=StartCommand}"
                            Style="{StaticResource ResourceKey=StyleDefault}"/>
+            <Button Content="Stop"
+                    Command="{Binding Path=StopCommand}"
+                    Style="{StaticResource ResourceKey=StyleDefault}"/>
+            <Button Content="Pause"
+                    Command="{Binding Path=PauseCommand}"
+                    Style="{StaticResource ResourceKey=StyleDefault}"/>
+            
         </StackPanel>
         
         <Grid>
